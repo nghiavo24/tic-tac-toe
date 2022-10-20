@@ -1,0 +1,23 @@
+.cell {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    line-height: 70px;
+    cursor: pointer;
+}
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 250px;
+    margin: auto
+}
+#gameContainer {
+    text-align: center;
+    font-size: 3rem;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
